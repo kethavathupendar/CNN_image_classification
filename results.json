@@ -1,0 +1,75 @@
+{
+  "SVM": {
+    "best_params": {
+      "C": 1,
+      "gamma": "scale"
+    },
+    "cv_accuracy": 0.5058333333333332,
+    "val_accuracy": 0.5571428571428572,
+    "tune_time_s": 41.943522691726685,
+    "fit_time_s": 51.65868592262268,
+    "tune_n": 6000,
+    "final_n": 24990
+  },
+  "DecisionTree": {
+    "best_params": {
+      "max_depth": 10,
+      "min_samples_split": 10
+    },
+    "cv_accuracy": 0.3488754640853689,
+    "val_accuracy": 0.39206349206349206,
+    "tune_time_s": 10.790752649307251,
+    "fit_time_s": 2.7858314514160156,
+    "tune_n": 8000,
+    "final_n": 24990
+  },
+  "RandomForest": {
+    "best_params": {
+      "max_depth": 20,
+      "n_estimators": 200
+    },
+    "cv_accuracy": 0.48850124979688864,
+    "val_accuracy": 0.5208616780045352,
+    "tune_time_s": 90.217440366745,
+    "fit_time_s": 50.01447939872742,
+    "tune_n": 8000,
+    "final_n": 24990
+  },
+  "KNN": {
+    "best_params": {
+      "n_neighbors": 7,
+      "weights": "distance"
+    },
+    "cv_accuracy": 0.3962997079551986,
+    "val_accuracy": 0.44240362811791384,
+    "tune_time_s": 2.8484976291656494,
+    "fit_time_s": 0.0067555904388427734,
+    "tune_n": 10000,
+    "final_n": 24990
+  },
+  "GradientBoosting": {
+    "best_params": {
+      "learning_rate": 0.2,
+      "n_estimators": 100
+    },
+    "cv_accuracy": 0.4383333333333333,
+    "val_accuracy": 0.47732426303854875,
+    "tune_time_s": 510.8639521598816,
+    "fit_time_s": 239.25647521018982,
+    "tune_n": 3000,
+    "final_n": 8000
+  },
+  "XGBoost": {
+    "best_params": {
+      "learning_rate": 0.2,
+      "max_depth": 6,
+      "n_estimators": 200
+    },
+    "cv_accuracy": 0.5168761256680875,
+    "val_accuracy": 0.5512471655328798,
+    "tune_time_s": 301.03761887550354,
+    "fit_time_s": 43.11630940437317,
+    "tune_n": 8000,
+    "final_n": 24990
+  }
+}
