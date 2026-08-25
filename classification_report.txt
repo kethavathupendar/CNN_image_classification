@@ -1,0 +1,18 @@
+Best model: SVM
+
+              precision    recall  f1-score   support
+
+    airplane       0.64      0.75      0.69       750
+  automobile       0.77      0.82      0.80       750
+        bird       0.47      0.52      0.49       750
+         cat       0.43      0.54      0.48       750
+        deer       0.50      0.45      0.48       600
+         dog       0.50      0.35      0.41       600
+        frog       0.00      0.00      0.00        75
+       horse       0.67      0.03      0.05        75
+        ship       0.00      0.00      0.00        45
+       truck       0.00      0.00      0.00        15
+
+    accuracy                           0.56      4410
+   macro avg       0.40      0.35      0.34      4410
+weighted avg       0.54      0.56      0.54      4410
